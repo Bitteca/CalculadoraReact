@@ -6,7 +6,6 @@ const Button = (props) => {
     classes += props.operation ? 'operation' : ''
     classes += props.double ? 'double' : ''
     classes += props.triple ? 'triple' : ''
-    classes += props.ac ? 'ac' : ''
     return (
         <button 
             onClick={e => props.click(props.label)}
